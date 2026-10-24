@@ -147,4 +147,4 @@
                        :request-method :get
                        :uri "/api/quotes/"})
         decoded-r (decode (:body response))]
-    (print decoded-r)))
+    (print decoded-r))) 
